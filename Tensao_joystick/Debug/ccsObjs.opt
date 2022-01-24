@@ -1,0 +1,1 @@
+"./tensao_software_joystick.obj" "../lnk_msp430f5529.cmd" -llibmath.a -llibc.a 

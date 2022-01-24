@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Xadrez</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet"
+      href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css"
+      integrity="sha384-q94+BZtLrkL1/ohfjR8c6L+A6qzNH9R2hBLwyoAfu3i/WCvQjzL2RQJ3uNHDISdU"
+      crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2"
+        crossorigin="anonymous"></script>
+
+	<script src="/js/chessboard-1.0.0.js""></script>
+	<script src="chess.js-master/chess.js"></script>
+</head>
+
+<body>
+	<div id="meuTabuleiro" style="width: 700px"></div> <!-- Tabueleiro-->
+
+	<div id="btn-reinicia">
+		<button onclick="reinicia()" id="iniciaTab"> <h1>Novo Jogo</h1> </button><!-- Botão para reiniciar o tabuleiro a posição inicial -->
+	</div>
+	
+	<div class="clock-b"><!-- Relógio das peças brancas -->
+        <img src="/img/relogio.png" width="20px" height="20px">
+		<p id="counterWhite">10:00</p>
+    </div>
+
+	<div class="clock-w"><!-- Relógio das peças brancas -->
+		<img src="/img/relogio.png" width="20px" height="20px">
+        <p id="counterBlack">10:00</p>
+    </div>
+
+	<div id='lances'>
+		<label> Lances:</label><!-- Jogadas em notação PGN -->
+		<div id="pgn"></div>
+	</div>
+	
+	<div id='estado'>
+		<label> Status:</label><!-- Status: Ex.: Black to move -->
+		<div id="status"></div>
+	</div>
+	
+
+	<script src="app.js"></script>
+	<script src="clock1.js"></script>
+	<script src="clock2.js"></script>
+	
+	
+</body>
+</html>

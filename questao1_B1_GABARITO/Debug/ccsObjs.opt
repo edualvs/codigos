@@ -1,0 +1,1 @@
+"./B1q1-190112701.obj" "../lnk_msp430f5529.cmd" -llibmath.a -llibc.a 

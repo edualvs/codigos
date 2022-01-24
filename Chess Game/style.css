@@ -1,0 +1,76 @@
+h1 {
+    
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 15px;
+}
+
+p{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 30px;
+}
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#meuTabuleiro {
+    top: 70px;
+    position: fixed;
+}
+
+#lances {
+    position: fixed;
+    top: 300px;
+    left: 700px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#estado {
+    position: fixed;
+    top: 200px;
+    left: 700px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#btn-reinicia{
+    top: 770px;
+    left: 0px;
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    text-align: left;
+    padding: 5px;
+}
+
+.clock-w {
+    border-radius: 10px;
+    text-align: center;
+    display: inline;
+    position: fixed;
+    top: 780px;
+    left: 560px;
+    width: 150px;
+    height: 40px;
+    background-color: gray;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.clock-b {
+    border-radius: 10px;
+    text-align: center;
+    display: inline;
+    position: fixed;
+    top: 0px;
+    left: 560px;
+    width: 150px;
+    height: 40px;
+    background-color: gray;
+    padding-top: 10px;
+    margin-top: 5px;
+}
